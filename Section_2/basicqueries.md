@@ -58,7 +58,22 @@ So, first of all we are opening CMD and change the to the directory where we ins
  ### Now our final goal that is deleting our Test Databse
     - DROP DATABASE Test;
 
+![image](../images/section2-imgs/dropDb.PNG)
 
+Great! you have completed our all three goals. 
+
+# Notes from Section 2
+    - To Create Database our command is 
+      - CREATE DATABASE {DATABASE_NAME}
+    - To Use DataBase 
+      - USE {DATABASE_NAME}
+    - To Drop (Delete) DataBase 
+      - DROP DATABASE {DATABASE_NAME}
+    - All the DATABASE name are case sensitive. You must give proper and unique name for each and every database.
+
+  # Alright now its your turn to do some stuff on your own.
+    Go and make your hands dirty with some basic SQL Statements. Do it youself and analyze yourself if you have any problem you can revise through this article.
+ - ## [Exercise](./exercise.md) 
   
 
 

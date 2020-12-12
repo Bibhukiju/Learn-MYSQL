@@ -42,7 +42,7 @@ So, first of all we are opening CMD and change the to the directory where we ins
     * You just have to give command 
         - CREATE DATABASE Test;
   
-![image](../images/section2-imgs/createDB.PNG)
+![image](../images/section2-imgs/CreateDB.PNG)
 
 <span style="background-color:black; color :green; font-size:20px; padding:10px">Congrats! you have created your first Database</span>
 
@@ -58,7 +58,7 @@ So, first of all we are opening CMD and change the to the directory where we ins
  ### Now our final goal that is deleting our Test Databse
     - DROP DATABASE Test;
 
-![image](../images/section2-imgs/dropDb.PNG)
+![image](../images/section2-imgs/dropDB.PNG)
 
 Great! you have completed our all three goals. 
 

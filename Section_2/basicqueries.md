@@ -42,7 +42,7 @@ So, first of all we are opening CMD and change the to the directory where we ins
     * You just have to give command 
         - CREATE DATABASE Test;
   
-![image](../images/section2-imgs/createDb.PNG)
+![image](../images/section2-imgs/createDB.PNG)
 
 <span style="background-color:black; color :green; font-size:20px; padding:10px">Congrats! you have created your first Database</span>
 
@@ -72,7 +72,7 @@ Great! you have completed our all three goals.
     - All the DATABASE name are case sensitive. You must give proper and unique name for each and every database.
 
   # Alright now its your turn to do some stuff on your own.
-    Go and make your hands dirty with some basic SQL Statements. Do it youself and analyze yourself if you have any problem you can revise through this article.
+Go and make your hands dirty with some basic SQL Statements. Do it youself and analyze yourself if you have any problem you can revise through this article.
  - ## [Exercise](./exercise.md) 
   
 

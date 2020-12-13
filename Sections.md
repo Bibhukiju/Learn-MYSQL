@@ -4,13 +4,13 @@
  - Introduction 
  - Features
 
-## Section 2
+### Section 2
 - Data Types
 - Instalation and setup of XAMPP
 - Some Basic SQL queries
 - Exercise
 
-### Section 3
+### **Section 3**
 - Primary Key and foreign keys
 - How to Create Modify and Delete Tables
 - Creating Database for Coffee Shop
@@ -54,5 +54,6 @@
  - Learn about Sub queries
  - Non-Correlated sub queries
  - Correlated Sub queries
+
 
 

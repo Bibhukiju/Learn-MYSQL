@@ -75,10 +75,3 @@ Great! you have completed our all three goals.
 Go and make your hands dirty with some basic SQL Statements. Do it youself and analyze yourself if you have any problem you can revise through this article.
  - ## [Exercise](./exercise.md) 
   
-
-
-
-
- 
-  
-

@@ -97,7 +97,76 @@ In this Example we are going to add student age in the table column.So i am goin
 And to see the table structure you know what to do.(You havae done that earlier).
 
 ![image](../images/s3/addcol.png)
+
+
+## Add Multiple Column
     
+    Syntax
+        ALTER TABLE {Table_name}
+        ADD {new_column_name} {column_defination}
+        [FIRST|AFTER column name],
+        ADD {new_column_name} {column_defination}
+        [FIRST|AFTER column name].
+        ....;
+
+## Example 
+
+In tis example, we are going to add two new columns `stu_stream` and `stu_section` in the existing table `student_tbl`
+
+    - ALTER TABLE student_tbl
+    - ADD stu_stream VARCHAR(40) NOT NULL,
+    - AFTER stu_address,
+    - ADD stu_section VARCHAR(10)
+    - ;
+
+### Output
+You can see two column has been added in the table.
+![image](../images/s3/multi_add_column.png)
+
+# MODIFY column in the table
+ sometimes we have to modify the column data type.The modify command is used to change column defination of table
+
+    - SYNTAX
+  ALTER TABLE {Table_name} 
+  MODIFY {column_name} {column_defination} 
+  [FIRST|AFTER column_name];
+
+  # Example 
+  For just an example lets modify the the defination of stu_section from varchar to INT NOT NULL.
+
+  For that your command should be 
+  
+    - ALTER TABLE student_tbl
+    - MODIFY stu_section INT NOT NULL;
+
+
+  # Output
+  ![image](../images/s3/modify_col.png)
+
+
+  # DROP column in table
+  We can also drop the column from the table and for that syntax is
+    
+    - ALTER TABLE {TABLE_NAME}
+    - DROP COLUMN {Column_name};
+ ## Example
+ Lets drop the column `stu_section` that we modified earlier and for that our query is
+
+    - ALTER TABLE student_tbl
+    - DROP COLUMN stu_section;
+
+ ## Output
+
+ you can see the difference between the upper table structure and lower structure
+
+ ![image](../images/s3/drop_col.png)
+
+ # Rename column in table
+ We can also rename the column as per needs 
+
+
+
+
     
     
 
